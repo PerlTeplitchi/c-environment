@@ -1,5 +1,11 @@
+#utilisation de variable pour test
+
+CC = gcc
+
+#all: main.out
+
 main.out : main.c
-	gcc main.c -o main.out
+	$(CC) main.c -o main.out
 	mv main.out enumerate_numbers
 
 clean:
