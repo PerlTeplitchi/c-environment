@@ -1,19 +1,3 @@
-/*
-programme de PERL
-
-#include <stdio.h>
-int main()
-{
-	for(int i=1; i<=10; i++){
-		printf("%d\n",i);
-	}
-		return 0;
-}
-*/
-
-// prgm jm, seulement le ./enumerate_number *avec rien* ne fonctionne pas
-
-
 #include<stdio.h>
 #include <stdlib.h>
 #include <string.h>
