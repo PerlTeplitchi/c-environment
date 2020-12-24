@@ -1,7 +1,10 @@
 #include<stdio.h>
 #include <stdlib.h>
 #include <string.h>
-int main(int argc, char **argv[])
+#include <ctype.h>
+#define TRUE 1
+
+int main(int argc, const char *argv[])
 {
 	if (argc>1)
 	{
@@ -19,14 +22,11 @@ int main(int argc, char **argv[])
 	}
 	for (int i = 0; argv[i]!='\0'; ++i)
 	{
-		if (argv[i]>= 'A' && argv[i]<= 'Z')
+		if (isalpha(*argv[i]==1))
 		{
 			return 0;
 		}
-		else if (argv[i] >= 'a' && argv[i]<= 'z')
-		{
-			return 0;
-		}
+		
 	}
 	}
 	
@@ -36,6 +36,7 @@ int main(int argc, char **argv[])
 		{
 			printf("%d\n", i);
 		}
+		
 	}
 
 }
