@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#define TRUE 1
+
 
 int main(int argc, const char *argv[])
 {
