@@ -20,14 +20,7 @@ int main(int argc, const char *argv[])
 	{
 		return 0;
 	}
-	for (int i = 0; argv[i]!='\0'; ++i)
-	{
-		if (isalpha(*argv[i]==1))
-		{
-			return 0;
-		}
-		
-	}
+
 	}
 	
 	else if(argc == 1)
