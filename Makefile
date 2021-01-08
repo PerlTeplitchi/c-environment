@@ -4,7 +4,7 @@ CC = gcc
 
 #all: main.out
 
-main.out : main.c
+build : main.c
 	$(CC) main.c -o main.out
 	mv main.out enumerate_numbers
 
